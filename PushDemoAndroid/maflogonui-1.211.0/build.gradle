@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('maflogonui-1.211.0.aar'))

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PushDemoAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_smp_push_acitivty">SmpPushAcitivty</string>
+
+
+    <string name="text_header_register_process">Input a valid user name and password for registration.</string>
+    <string name="user_name_hint">Enter User Name</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="register_button_text">Register</string>
+    <string name="title_activity_maflogon_activty">MAFLogonActivty</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- === Logon texts ======================================== -->
+    <string name="lbl_host">Host</string>
+    <string name="lbl_port">Port</string>
+    <string name="lbl_username">Username</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_https">HTTPS enabled</string>
+    <string name="btn_logon">Login</string>
+    <string name="btn_maf_logon">MAF Login</string>
+    <string name="msg_registration_progress">Registration is in Progress</string>
+    <string name="msg_registration_success">Registration was successful</string>
+    <string name="msg_registration_fail">Registration failed</string>
+    <string name="msg_already_registered">Device already registered</string>
+    <!-- === default values ======================================== -->
+    <string name="value_host">SMP Host</string>
+    <string name="value_username">Username</string>
+    <string name="value_port">SMP Port</string>
+    <!-- === Main texts ======================================== -->
+    <string name="msg_offline_progress">Opening offline store</string>
+    <string name="msg_offline_success">Offline store is opened. It has %1$d agencies</string>
+    <string name="msg_offline_fail">Offline store could not be opened. Error: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maflogon">MAFLogonActivity</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.HomeActivity"
+    android:gravity="center"
+    tools:showIn="@layout/activity_home">
+
+    <Button
+        android:id="@+id/register_through_sdk_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="bottom"
+        android:text="Register User via SDK"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_through_sdk_button"
+        android:foregroundGravity="bottom"
+        android:text="Register User"/>
+
+    <Button
+        android:id="@+id/register_gcm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="bottom"
+        android:text="Register GCM"
+        android:layout_below="@+id/register_button"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/create_entity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="bottom"
+        android:text="Create Registration Entity"
+        android:layout_below="@+id/register_gcm"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/gcm_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_entity"
+        android:visibility="invisible"/>
+</RelativeLayout>

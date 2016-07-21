@@ -33,4 +33,13 @@
     <string name="msg_offline_fail">Offline store could not be opened. Error: %1$s</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_maflogon">MAFLogonActivity</string>
+    <string name="text_header_select_agency">Select Agency</string>
+    <string name="spinner_title">Agency</string>
+    <string name="agency_name">Agency Name</string>
+    <string name="agency_id">Agency Number :</string>
+    <string name="agency_street">Agency Street</string>
+    <string name="agency_city">Agency City</string>
+    <string name="agency_country">Agency Country</string>
+    <string name="agency_website">Agency Website</string>
+    <string name="agency_count_header">Agency Count :</string>
 </resources>

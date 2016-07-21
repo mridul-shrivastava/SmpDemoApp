@@ -115,6 +115,7 @@ public class MAFLogonActivity extends SmpPushAcitivty implements LogonListener {
         setContentView(mLogonUIFacade.logon());
         // Hide splash screen
         mLogonUIFacade.showSplashScreen(false);
+        mApp.setmLogonUIFacade(mLogonUIFacade);
     }
 
     private void setDefaultValuesForLogon() {

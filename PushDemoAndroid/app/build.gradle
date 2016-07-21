@@ -26,6 +26,7 @@ android {
 dependencies {
     testCompile 'junit:junit:4.12'
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(include: ['.jar', '.so'], dir: 'libs')
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile('com.google.android.gms:play-services:8.4.0') {
@@ -59,4 +60,6 @@ dependencies {
     compile project(':maflogonui-1.211.0')
     compile files('libs/Mobileplace-3.11.0.jar')
     compile files('libs/gson-2.2.4.jar')
+    compile files('libs/E2ETrace-3.11.0.jar')
+    compile files('libs/simple-xml-2.7.1.jar')
 }

@@ -8,6 +8,7 @@ import com.klouddata.push.pushdemoandroid.util.Util;
 import com.sap.maf.tools.logon.core.LogonCore;
 import com.sap.maf.tools.logon.core.LogonCoreContext;
 import com.sap.maf.tools.logon.core.LogonCoreException;
+import com.sap.maf.tools.logon.logonui.api.LogonUIFacade;
 import com.sap.mobile.lib.configuration.IPreferences;
 import com.sap.mobile.lib.configuration.Preferences;
 import com.sap.mobile.lib.configuration.PreferencesException;
@@ -28,6 +29,16 @@ public class SmpPushApplication extends Application {
     private ConnectivityParameters mConnectivityParameters = null;
     private Parser mParser = null;
     private IODataSchema mSchema = null;
+
+    public LogonUIFacade getmLogonUIFacade() {
+        return mLogonUIFacade;
+    }
+
+    public void setmLogonUIFacade(LogonUIFacade mLogonUIFacade) {
+        this.mLogonUIFacade = mLogonUIFacade;
+    }
+
+    private LogonUIFacade mLogonUIFacade;
 
     public LogonCore getLgCore() {
         return lgCore;
